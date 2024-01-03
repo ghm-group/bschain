@@ -1,0 +1,40 @@
+version: "3.4"
+services:
+  truffle:
+    build:
+      context: .
+      target: truffle
+    depends_on:
+      - ganache
+    networks:
+      - backend
+    volumes:
+      - .:/home/app
+      - /home/app/node_modules
+  ganache:
+    build:
+      context: .
+      target: ganache
+    ports:
+      - 8545:8545
+    networks:
+      - backend
+  app:
+    build:
+      context: .
+      target: app
+    depends_on:
+      - ganache
+    ports:
+      - 3000:3000
+    networks:
+      - backend
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - ETHEREUM_RPC_URL=http://host.docker.internal:7545
+
+networks:
+  backend:
+    driver: "bridge"
