@@ -1,7 +1,7 @@
 # SupplyChain Logistics Traceability Solution based on Blockchain Technology
 
 ## 1. Introduction
-The project, "Traçabilité Logistique basée sur la Technologie Blockchain," aims to revolutionize supply chain management using 
+The project, "Blockchain-based Logistics Traceability," aims to revolutionize supply chain management using 
 blockchain technology. The solution provides real-time tracking of products, materials, and goods throughout the supply chain, 
 offering unparalleled transparency, enhanced data security, and true traceability for all stakeholders.
 ## 2. The project Architecture 
