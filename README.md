@@ -185,10 +185,9 @@ The "Traçabilité Logistique basée sur la Technologie Blockchain" project aims
 You can watch the demonstration of how our application works on Youtube : 
 https://www.youtube.com/watch?v=is-boFNFqic
 ## Collaborators
-
-- **LAYOUNE Ghita** - [GitHub Profile](https://github.com/Bam04bi)
 - **HANIM Hanae** - [GitHub Profile](https://github.com/hhanae)
+- **LAYOUNE Ghita** - [GitHub Profile](https://github.com/Bam04bi)
 - **YOUSFI Meryem** - [GitHub Profile](https://github.com/MeryemYOUSFI)
-
-
-
+- **LACHGAR Mohamed** - [GitHub Profile](https://github.com/lachgar)
+- **KAMAL IDRISSI Zineb** 
+- **HRIMECH Hamid** 
